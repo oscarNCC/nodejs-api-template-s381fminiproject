@@ -1,0 +1,23 @@
+<HTML>
+    <body>
+        <head> 
+            <title>Restaurant</title>
+        </head>
+    <% if (r.length > 0) { %>
+    <table>
+    <tr><th>Name</th><th>Cuisine</th><th>Street</th><th>Building</th><th>Zipcode</th></tr>
+    <% for (var i = 0; i < r.length; i++) { %>
+    <tr>
+    <td><%= r[i].name %></td>
+    <td><%= r[i].cuisine %></td>
+    <td><%= r[i].street %></td>
+    <td><%= r[i].building %></td>
+    <td><%= r[i].zipcode %></td>
+    </tr>
+    <% } %>
+    </table>
+    <% } else { %>
+    <h1>There do not have any restaurant!</h1>
+    <% } %>
+    </body>
+</HTML>
