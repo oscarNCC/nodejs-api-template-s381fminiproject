@@ -1,0 +1,19 @@
+{
+    "name": "server.js",
+    "description": "Mini-Project",
+    "author": "Chan Ngai Chin 12555438",
+    "version": "0.0.1",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cookie-session": "^1.4.0",
+        "cors": "^2.8.5",
+        "cursor": "^0.1.5",
+        "express": "*",
+        "mongodb": "*",
+        "mongoose": "^5.11.8"
+    },
+    "engine": "node >= 0.10.0",
+    "scripts": {
+        "start": "node server"
+    }
+}
