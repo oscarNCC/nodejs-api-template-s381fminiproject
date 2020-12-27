@@ -1,0 +1,96 @@
+/*Login <h1>*/
+h1{
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+h2{
+    color:#000000;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em  
+}
+h3{
+    color:#000000;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em  
+
+}
+body{
+    margin:0;
+    padding :0;
+    font-family: sans-serif;
+    background:#e6b566;
+}
+
+/* set two input box */
+.inputBox input[type='text'],.inputBox input[type='password']{ 
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #e6b566;
+    padding: 14px 10px;
+    width:200px;
+    outline:none;
+    color:#f1f1f1;
+    border-radius:24px;
+    transition:1s;
+}
+/* set two input box when selected*/
+.inputBox input[type='text']:focus,.inputBox input[type='password']:focus{
+width :280px;
+border-color: #D6AD60;
+background :black;
+color:#e5707e;
+}
+
+
+/*Login Button*/
+.inputBox input[type='submit']{
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #e6b566;
+    padding: 14px 10px;
+    outline:none;    
+    border-radius:24px;
+    transition:1s;
+    cursor: pointer;
+    width:150px;
+}
+.inputBox input[type='submit']:hover{    
+    border-color: #a3ddcb;
+    background:#e6b566;
+    color:white;
+}
+
+/*Register*/
+.inputBox button[type='button']{
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #e6b566;
+    padding: 14px 10px;
+    outline:none;    
+    border-radius:24px;
+    transition:1s;
+    cursor: pointer;
+    width:150px;
+}
+.inputBox button[type='button']:hover{    
+    border-color: #a3ddcb;
+    background:black;
+    color:white;
+}

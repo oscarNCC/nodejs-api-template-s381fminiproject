@@ -1,0 +1,90 @@
+/*Login <h1>*/
+.inputBox h1{
+    color:23120b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+body{
+    margin:0;
+    padding :0;
+    font-family: sans-serif;
+    background:#122620;
+}
+.inputBox{
+    width :300px;
+    padding:40px;
+    position :absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:#B68D40;
+    text-align:center;
+    border-radius:24px;
+
+}
+/* set two input box */
+.inputBox input[type='text'],.inputBox input[type='password']{ 
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #122620;
+    padding: 14px 10px;
+    width:200px;
+    outline:none;
+    color:#f1f1f1;
+    border-radius:24px;
+    transition:1s;
+}
+/* set two input box when selected*/
+.inputBox input[type='text']:focus,.inputBox input[type='password']:focus{
+width :280px;
+border-color: #D6AD60;
+background :black;
+color:#F4EBD0;
+}
+
+
+/*Login Button*/
+.inputBox input[type='submit']{
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #122620;
+    padding: 14px 10px;
+    outline:none;    
+    border-radius:24px;
+    transition:1s;
+    cursor: pointer;
+    width:150px;
+}
+.inputBox input[type='submit']:hover{    
+    border-color: #D6AD60;
+    background:black;
+    color:white;
+}
+
+/*Register*/
+.inputBox button[type='button']{
+    border:0;
+    background:none;
+    display:block;
+    margin :20px auto;
+    text-align:center;
+    border:2px solid #122620;
+    padding: 14px 10px;
+    outline:none;    
+    border-radius:24px;
+    transition:1s;
+    cursor: pointer;
+    width:150px;
+}
+.inputBox button[type='button']:hover{    
+    border-color: #D6AD60;
+    background:black;
+    color:white;
+}
